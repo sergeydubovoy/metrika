@@ -1,0 +1,60 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    width: 1400px;
+}
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    margin-bottom: 30px;
+ }
+ .studio {
+    color: white;
+    height: 500px;
+    background-image: url(../resourсes/rectangle-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+ }
+ .studio p {
+    width: 430px;
+    height: 81px;
+    padding-top: 379px;
+    padding-left: 40px;
+    padding-right: 680px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    line-height: 27px;
+}
+.studio-text-about h2 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #121212;
+    margin-bottom: 30px;
+}
+.studio-text-about p {
+    font-size: 45px;
+    line-height: 61px;
+    color: #121212;
+    margin-bottom: 30px;
+}
+.studio-text-about a {
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 67px;
+
+    width: 255px;
+    height: 67px;
+    background: #AD1818;
+    border-radius: 5px;
+}
