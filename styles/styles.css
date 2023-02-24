@@ -144,3 +144,41 @@ h1 {
 .section-2 img {
     margin-bottom: 15px;
 }
+.big-image {
+    display: block;
+    width: 1400px;
+    height: 717px;
+    background-image: url(../resourсes/big-image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 575px;
+}
+.big-image h3 {
+    color: white;
+    width: 443px;
+    height: 82px;
+    font-size: 30px;
+    line-height: 41px;
+    margin-left: 125px;
+}
+.contacts {
+    color: #121212;
+}
+.contacts img {
+    margin-bottom: 12px;
+}
+.contacts h2 {
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.tel {
+    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 60px;
+}
+.email {
+    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 60px;
+}
