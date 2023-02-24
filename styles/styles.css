@@ -21,6 +21,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 33px;
 }
 nav a {
     font-size: 18px;
