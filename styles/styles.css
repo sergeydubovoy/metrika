@@ -85,3 +85,25 @@ h1 {
     margin-bottom: 90px;
     line-height: 27px;
 }
+.btn {
+    display: block;
+
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    text-decoration: none;
+    color: #AD1818;
+    padding-top: 56px;
+    padding-bottom: 56px;
+
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 150px;
+}
+.btn:hover {
+    background-color: #AD1818;
+}
+.btn:hover a {
+    color: white;
+}
