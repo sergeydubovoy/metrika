@@ -3,6 +3,7 @@ body {
     font-style: normal;
     font-weight: 400;
     width: 1400px;
+    letter-spacing: -0.03em;
 }
 .container {
     width: 1150px;
@@ -15,7 +16,7 @@ h1 {
     margin-bottom: 30px;
     margin-top: 128px;
  }
- .studio {
+ .header {
     color: white;
     height: 500px;
     background-image: url(../resourсes/rectangle-1.png);
@@ -23,7 +24,7 @@ h1 {
     background-repeat: no-repeat;
     margin-bottom: 150px;
  }
- .studio p {
+ .header p {
     width: 430px;
     height: 81px;
     padding-top: 379px;
@@ -33,19 +34,19 @@ h1 {
     font-size: 20px;
     line-height: 27px;
 }
-.studio-text-about h2 {
+.header-text p {
     font-size: 18px;
     line-height: 25px;
     color: #121212;
     margin-bottom: 30px;
 }
-.studio-text-about p {
+.header-text h2 {
     font-size: 45px;
     line-height: 61px;
     color: #121212;
     margin-bottom: 30px;
 }
-.studio-text-about a {
+.header-text a {
     display: block;
 
     text-align: center;
@@ -58,4 +59,29 @@ h1 {
     height: 67px;
     background: #AD1818;
     border-radius: 5px;
+    margin-bottom: 150px;
+}
+.section-1 div {
+    margin-bottom: 90px;
+}
+.section-1 p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #121212;
+    margin-bottom: 30px;
+}
+.section-1 img {
+    margin-bottom: 15px;
+}
+.section-1 h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    line-height: 41px;
+}
+.section-1 a {
+    text-decoration: none;
+    color: #AD1818;
+    font-size: 20px;
+    margin-bottom: 90px;
+    line-height: 27px;
 }
