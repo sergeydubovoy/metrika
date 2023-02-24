@@ -5,9 +5,28 @@ body {
     width: 1400px;
     letter-spacing: -0.03em;
 }
+.bg-white {
+    width: 1400px;
+    background-color: white;
+}
+.bg-black {
+    width: 1400px;
+    background-color: #121212;
+}
 .container {
     width: 1150px;
     margin: 0 auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a {
+    font-size: 18px;
+    margin-left: 60px;
+    text-decoration: none;
+    color: #121212;
 }
 h1 {
     font-size: 60px;
@@ -106,4 +125,22 @@ h1 {
 }
 .btn:hover a {
     color: white;
+}
+.section-2 {
+    background: #121212;
+    color: white;
+    padding-top: 151px;
+    padding-bottom: 150px;
+}
+.section-2 p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.section-2 h3 {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+.section-2 img {
+    margin-bottom: 15px;
 }
