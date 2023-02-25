@@ -123,8 +123,6 @@ h1 {
 }
 .btn:hover {
     background-color: #AD1818;
-}
-.btn:hover a {
     color: white;
 }
 .section-2 {
