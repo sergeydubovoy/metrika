@@ -29,6 +29,9 @@ nav a {
     text-decoration: none;
     color: #121212;
 }
+nav a:hover {
+    color: gray;
+}
 h1 {
     font-size: 60px;
     line-height: 60px;
