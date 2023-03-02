@@ -1,16 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Сайт</title>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
-</head>
-<body>
-    <h1>Заголовок первого уровня</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sunt optio ab explicabo totam eos debitis velit hic laborum cumque dolor aliquid recusandae, quis vel, ea itaque iusto et autem.</p>
-</body>
-</html> 
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>МЕТРИКА</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="header__logo">
+              <img src="resourсes/logo.png" alt="МЕТРИКА" />
+            </div>
+            <nav class="header__menu">
+              <ul class="header__menu-list">
+                <li class="header__menu-list-item"><a href="#about">О НАС</a></li>
+                <li class="header__menu-list-item"><a href="#projects">ПРОЕКТЫ</a></li>
+                <li class="header__menu-list-item"><a href="#services">УСЛУГИ</a></li>
+                <li class="header__menu-list-item"><a href="#contacts">КОНТАКТЫ</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+    </header>
+    <main>
+      <section class="beginning">
+        <div class="container">
+          <h1 class="beginning__title">Современные и стильные интерьеры для комфортной жизни</h1>
+          <div class="beginning__image">
+            <img src="resourсes/rectangle-1.png" alt="Пример дизайна интерьера">
+            <p class="beginning__text">
+              Мы - команда квалифицированных дизайнеров и архитекторов,
+              занимающихся разработкой и реализацией дизайн-проектов
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <h3 class="about__title">О НАС</h3>
+          <p class="about__text"> 
+            Студия основана в 2011 году. Полностью отдаемся проектированию и
+            реализации интерьеров. К нам обращаются за уютом, индивидуальными
+            решениями и практичностью. Находим конструктивные решения для
+            каждого интерьера, вплоть до каждой детали — нацелены на результат.
+          </p>
+          <a class="about__link" href="#services"> Посмотреть услуги</a>
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <div class="container">
+          <h2 class="projects__title">ПРОЕКТЫ</h2>
+          <div class="projects__item">
+            <img class="projects__item-image" src="resourсes/jk-pravoberejhny.png" alt="ЖК ПРАВОБЕРЕЖНЫЙ" />
+            <h3 class="projects__item-info">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+            <a class="projects__item-link" href="/"> Подробнее →</a>
+          </div>
+          <div class="projects__item">
+            <img class="projects__item-image" src="resourсes/jk-norvejsky-park.png" alt="ЖК НОРВЕЖСКИЙ ПАРК" />
+            <h3 class="projects__item-info">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+            <a class="projects__item-link" href="/"> Подробнее →</a>
+          </div>
+          <div class="projects__item">
+            <img class="projects__item-image" src="resourсes/jk-sosnovskie-ozera.png" alt="ЖК СОСНОВСКИЕ ОЗЕРА" />
+            <h3 class="projects__item-info">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+            <a class="projects__item-link" href="/"> Подробнее →</a>
+          </div>
+          <a class="projects__link" href="/"> Смотреть все проекты </a>
+        </div>
+      </section>
+      <section class="services" id="services">
+        <div class="container">
+          <h2 class="services__title">УСЛУГИ</h2>
+          <div class="services__item">
+            <img
+              class="services__item-image"
+              src="resourсes/service-1.png"
+              alt="Планировочное решение"
+            />
+            <h3 class="services__item-info">
+              Планировочное решение — от 2500₽/м²
+            </h3>
+          </div>
+          <div class="services__item">
+            <img
+              class="services__item-image"
+              src="resourсes/service-2.png"
+              alt="Дизайн-проект"
+            />
+            <h3 class="services__item-info">
+              Дизайн-проект — от 3000₽/м²
+            </h3>
+          </div>
+          <div class="services__item">
+            <img
+              class="services__item-image"
+              src="resourсes/service-3.png"
+              alt="Авторский надзор"
+            />
+            <h3 class="services__item-info">
+              Авторский надзор — от 30 000₽ в месяц
+            </h3>
+          </div>
+          <div class="services__item">
+            <img
+              class="services__item-image"
+              src="resourсes/service-4.png"
+              alt="Комплектация"
+            />
+            <h3 class="services__item-info">
+              Комплектация — 5% от стоимости спецификации
+            </h3>
+          </div>
+        </div>
+      </section>
+      <section class="example">
+        <div class="example__image">
+          <img
+            src="resourсes/example.png"
+            alt="Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж">
+        </div>
+        <div class="container">
+          <h2 class="example__text">
+            Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж
+          </h2>
+        </div>
+      </section>
+      <section class="contacts" id="contacts">
+        <div class="container">
+          <img class="contacts__icon" src="resourсes/tel.png" />
+          <h2 class="contacts__title">КОНТАКТЫ</h2>
+          <ul class="contacts__list">
+            <li>
+              <a class="contacts__tel" href="tel:+79358954535">+7 935 895-45-35</a>
+            </li>
+            <li>
+              <a class="contacts__email" href="mailto:info@metrika.com">info@metrika.com</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <nav class="footer__menu">
+          <ul class="footer__menu-list">
+            <li class="footer__menu-list-item"><a href="#about">О НАС</a></li>
+            <li class="footer__menu-list-item"><a href="#projects">ПРОЕКТЫ</a></li>
+            <li class="footer__menu-list-item"><a href="#services">УСЛУГИ</a></li>
+            <li class="footer__menu-list-item"><a href="#contacts">КОНТАКТЫ</a></li>
+          </ul>
+        </nav>
+        <div class="footer-credits">
+          <p>Студия дизайна интерьера Метрика — 2023</p>
+        </div>
+    </div>
+    </footer>
+  </body>
+</html>
