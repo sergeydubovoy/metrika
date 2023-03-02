@@ -59,9 +59,11 @@ body {
 }
 .beginning__image {
   position: relative;
+  width: 100%;
 }
 .beginning__text {
   position: absolute;
+  display: block;
   width: 430px;
   height: 81px;
   bottom: 40px;
