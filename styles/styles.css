@@ -125,6 +125,7 @@ body {
 }
 .services__item-image {
   margin-bottom: 15px;
+  width: 100%;
 }
 .services__item-info {
   font-size: 30px;
@@ -138,6 +139,7 @@ body {
 }
 .projects__item-image {
   margin-bottom: 15px;
+  width: 100%;
 }
 .projects__item-info {
   margin-bottom: 15px;
@@ -186,7 +188,9 @@ body {
 }
 .example__image {
   margin: 0 auto;
-  width: 1400px;
+}
+.example__image img {
+  width: 100%;
 }
 .contacts {
   padding-bottom: 150px;
