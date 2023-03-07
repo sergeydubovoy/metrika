@@ -16,12 +16,15 @@
     <header class="header">
         <div class="container">
           <div class="header__inner">
-            <div class="header__logo">
-              <img src="resourсes/logo.png" alt="МЕТРИКА" />
-            </div>
+              <a class="header__logo-link"
+                href="/">
+                <img class="header__logo-img"
+                  src="resourсes/logo.svg"
+                  alt="МЕТРИКА" />
+              </a>
             <nav class="header__menu">
               <ul class="header__menu-list">
-                <li class="header__menu-list-item"><a href="#about">О НАС</a></li>
+                <li class="header__menu-list-item header__menu-list-item-active"><a href="#about">О НАС</a></li>
                 <li class="header__menu-list-item"><a href="#projects">ПРОЕКТЫ</a></li>
                 <li class="header__menu-list-item"><a href="#services">УСЛУГИ</a></li>
                 <li class="header__menu-list-item"><a href="#contacts">КОНТАКТЫ</a></li>
@@ -31,19 +34,19 @@
         </div>
     </header>
     <main>
-      <section class="beginning">
+      <section class="start" id="about">
         <div class="container">
-          <h1 class="beginning__title">Современные и стильные интерьеры для комфортной жизни</h1>
-          <div class="beginning__image">
-            <img src="resourсes/rectangle-1.png" alt="Пример дизайна интерьера">
-            <p class="beginning__text">
+          <h1 class="start__title">Современные и стильные интерьеры для комфортной жизни</h1>
+          <div class="start__image">
+            <img src="resourсes/start-image.png" alt="Пример дизайна интерьера">
+            <p class="start__text">
               Мы - команда квалифицированных дизайнеров и архитекторов,
               занимающихся разработкой и реализацией дизайн-проектов
             </p>
           </div>
         </div>
       </section>
-      <section class="about" id="about">
+      <section class="about">
         <div class="container">
           <h3 class="about__title">О НАС</h3>
           <p class="about__text"> 
@@ -58,67 +61,71 @@
       <section class="projects" id="projects">
         <div class="container">
           <h2 class="projects__title">ПРОЕКТЫ</h2>
-          <div class="projects__item">
-            <img class="projects__item-image" src="resourсes/jk-pravoberejhny.png" alt="ЖК ПРАВОБЕРЕЖНЫЙ" />
-            <h3 class="projects__item-info">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
-            <a class="projects__item-link" href="/"> Подробнее →</a>
-          </div>
-          <div class="projects__item">
-            <img class="projects__item-image" src="resourсes/jk-norvejsky-park.png" alt="ЖК НОРВЕЖСКИЙ ПАРК" />
-            <h3 class="projects__item-info">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
-            <a class="projects__item-link" href="/"> Подробнее →</a>
-          </div>
-          <div class="projects__item">
-            <img class="projects__item-image" src="resourсes/jk-sosnovskie-ozera.png" alt="ЖК СОСНОВСКИЕ ОЗЕРА" />
-            <h3 class="projects__item-info">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
-            <a class="projects__item-link" href="/"> Подробнее →</a>
-          </div>
+          <ul class="projects__list">
+            <li class="projects__item">
+                <img class="projects__item-image" src="resourсes/jk-pravoberejhny.png" alt="ЖК ПРАВОБЕРЕЖНЫЙ" />
+                <h3 class="projects__item-info">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+                <a class="projects__item-link" href="/"> Подробнее →</a>
+            </li>
+            <li class="projects__item">
+                <img class="projects__item-image" src="resourсes/jk-norvejsky-park.png" alt="ЖК НОРВЕЖСКИЙ ПАРК" />
+                <h3 class="projects__item-info">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+                <a class="projects__item-link" href="/"> Подробнее →</a>
+            </li>
+            <li class="projects__item">
+                <img class="projects__item-image" src="resourсes/jk-sosnovskie-ozera.png" alt="ЖК СОСНОВСКИЕ ОЗЕРА" />
+                <h3 class="projects__item-info">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+                <a class="projects__item-link" href="/"> Подробнее →</a>
+            </li>
+          </ul>
           <a class="projects__link" href="/"> Смотреть все проекты </a>
         </div>
       </section>
-      <section class="services" id="services">
+      <section class="services">
         <div class="container">
-          <h2 class="services__title">УСЛУГИ</h2>
-          <div class="services__item">
-            <img
-              class="services__item-image"
-              src="resourсes/service-1.png"
-              alt="Планировочное решение"
-            />
-            <h3 class="services__item-info">
-              Планировочное решение — от 2500₽/м²
-            </h3>
-          </div>
-          <div class="services__item">
-            <img
-              class="services__item-image"
-              src="resourсes/service-2.png"
-              alt="Дизайн-проект"
-            />
-            <h3 class="services__item-info">
-              Дизайн-проект — от 3000₽/м²
-            </h3>
-          </div>
-          <div class="services__item">
-            <img
-              class="services__item-image"
-              src="resourсes/service-3.png"
-              alt="Авторский надзор"
-            />
-            <h3 class="services__item-info">
-              Авторский надзор — от 30 000₽ в месяц
-            </h3>
-          </div>
-          <div class="services__item">
-            <img
-              class="services__item-image"
-              src="resourсes/service-4.png"
-              alt="Комплектация"
-            />
-            <h3 class="services__item-info">
-              Комплектация — 5% от стоимости спецификации
-            </h3>
-          </div>
+          <h2 class="services__title" id="services">УСЛУГИ</h2>
+          <ul class="services__list">
+            <li class="services__item">
+              <img
+                class="services__item-image"
+                src="resourсes/service-1.png"
+                alt="Планировочное решение"
+              />
+              <h3 class="services__item-info">
+                Планировочное решение — от 2500₽/м²
+              </h3>
+            </li>
+            <li class="services__item">
+              <img
+                class="services__item-image"
+                src="resourсes/service-2.png"
+                alt="Дизайн-проект"
+              />
+              <h3 class="services__item-info">
+                Дизайн-проект — от 3000₽/м²
+              </h3>
+            </li>
+            <li class="services__item">
+              <img
+                class="services__item-image"
+                src="resourсes/service-3.png"
+                alt="Авторский надзор"
+              />
+              <h3 class="services__item-info">
+                Авторский надзор — от 30 000₽ в месяц
+              </h3>
+            </li>
+            <li class="services__item">
+              <img
+                class="services__item-image"
+                src="resourсes/service-4.png"
+                alt="Комплектация"
+              />
+              <h3 class="services__item-info">
+                Комплектация — 5% от стоимости спецификации
+              </h3>
+            </li>
+          </ul>
         </div>
       </section>
       <section class="example">
@@ -135,7 +142,7 @@
       </section>
       <section class="contacts" id="contacts">
         <div class="container">
-          <img class="contacts__icon" src="resourсes/tel.png" />
+          <img class="contacts__icon" src="resourсes/tel.svg" />
           <h2 class="contacts__title">КОНТАКТЫ</h2>
           <ul class="contacts__list">
             <li>

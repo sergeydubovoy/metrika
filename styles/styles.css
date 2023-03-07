@@ -42,9 +42,14 @@ html {
 }
 .header__menu-list-item a:hover {
   text-decoration: gray;
-  border-bottom: 2px solid gray;
+  border-bottom: 1px solid gray;
   color: gray;
   transition: all 0.3s ease;
+}
+.header__menu-list-item-active {
+  text-decoration: gray;
+  border-bottom: 1px solid gray;
+  color: gray;
 }
 .header__menu-list a {
   font-size: 18px;
@@ -52,19 +57,19 @@ html {
   text-decoration: none;
   color: #121212;
 }
-.beginning {
+.start {
   margin-bottom: 150px;
 }
-.beginning__title {
+.start__title {
   margin-bottom: 30px;
   font-size: 60px;
   line-height: 60px;
 }
-.beginning__image {
+.start__image {
   position: relative;
   width: 100%;
 }
-.beginning__text {
+.start__text {
   position: absolute;
   display: block;
   width: 430px;
@@ -78,7 +83,8 @@ html {
 .about {
   margin-bottom: 150px;
 }
-.about__title, .projects__title, .services__title, .contacts__title {
+.about__title, .projects__title, .services__title {
+  display: block;
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
@@ -164,7 +170,7 @@ html {
   display: block;
   text-decoration: none;
   text-align: center;
-  border: 2px solid #ad1818;
+  border: 1px solid #ad1818;
   font-size: 30px;
   line-height: 41px;
   letter-spacing: -0.03em;
@@ -199,6 +205,25 @@ html {
 }
 .contacts {
   padding-bottom: 150px;
+}
+.contacts__title {
+  display: block;
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #121212;
+}
+.contacts__title::before {
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url(/resourсes/tel.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 .contacts__icon {
   margin-bottom: 12px;
