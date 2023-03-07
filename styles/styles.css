@@ -216,14 +216,16 @@ html {
   color: #121212;
 }
 .contacts__title::before {
+  content: '';
   display: block;
   position: absolute;
-  width: 24px;
-  height: 24px;
+  width: 15px;
+  height: 26px;
+  bottom: 38px;
   background-image: url(/resourсes/tel.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50%;
+  background-position: 50% 50%;
 }
 .contacts__icon {
   margin-bottom: 12px;
