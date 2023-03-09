@@ -41,16 +41,17 @@ html {
   margin-right: 0px;
 }
 .header__menu-list-item a:hover {
-  text-decoration: gray;
-  border-bottom: 1px solid gray;
-  color: gray;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
   transition: all 0.3s ease;
 }
+/* 
 .header__menu-list-item-active {
   text-decoration: gray;
   border-bottom: 1px solid gray;
   color: gray;
 }
+*/
 .header__menu-list a {
   font-size: 18px;
   line-height: 25px;
@@ -128,36 +129,36 @@ html {
   background-color: #121212;
   color: white;
 }
-.services__item {
+.service {
   margin-bottom: 60px;
 }
-.services__item:nth-last-child(1) {
+.service:nth-last-child(1) {
   margin-bottom: 0px;
 }
-.services__item-image {
+.service__image {
   margin-bottom: 15px;
   width: 100%;
 }
-.services__item-info {
+.service__info {
   font-size: 30px;
   line-height: 41px;
 }
 .projects {
   margin-bottom: 150px;
 }
-.projects__item {
+.project {
   margin-bottom: 90px;
 }
-.projects__item-image {
+.project__image {
   margin-bottom: 15px;
   width: 100%;
 }
-.projects__item-info {
+.project__info {
   margin-bottom: 15px;
   font-size: 30px;
   line-height: 41px;
 }
-.projects__item-link {
+.project__link {
   text-decoration: none;
   color: #ad1818;
   font-size: 20px;
@@ -271,25 +272,26 @@ html {
   flex-wrap: wrap;
   justify-content: center;
 }
-.footer__menu-list-item {
+.footer__menu-item {
   margin-right: 55px;
   font-size: 18px;
   line-height: 25px;
 }
-.footer__menu-list-item:nth-last-child(1) {
+.footer__menu-item:nth-last-child(1) {
   margin-right: 0px;
 }
-.footer__menu-list-item a {
+.footer__menu-item a {
   text-decoration: none;
   color: #f5f5f5;
   transition: all 0.3s ease;
 }
-.footer__menu-list-item a:hover {
-  color: gray;
+.footer__menu-item a:hover {
+  opacity: 0.5;
   transition: all 0.3s ease;
 }
 .footer-credits {
-  color: gray;
+  color: #FFFFFF;
+  opacity: 0.5;
   text-align: center;
   font-size: 20px;
   line-height: 27px;
