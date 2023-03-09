@@ -59,12 +59,14 @@ html {
   color: #121212;
 }
 .start {
-  margin-bottom: 150px;
+  margin-bottom: 149px;
 }
 .start__title {
   margin-bottom: 30px;
   font-size: 60px;
   line-height: 60px;
+  width: 1000px;
+  letter-spacing: -0.03em;
 }
 .start__image {
   position: relative;
@@ -82,9 +84,9 @@ html {
   color: white;
 }
 .about {
-  margin-bottom: 150px;
+  margin-bottom: 149px;
 }
-.about__title, .projects__title, .services__title {
+.about__title, .projects__title {
   display: block;
   margin-bottom: 30px;
   font-size: 18px;
@@ -93,10 +95,12 @@ html {
   color: #121212;
 }
 .about__text {
+  margin-bottom: 30px;
+  max-width: 1051px;
+  letter-spacing: -0.03em;
   font-size: 45px;
   line-height: 61px;
   color: #121212;
-  margin-bottom: 30px;
 }
 .about__link {
   box-sizing: border-box;
@@ -120,34 +124,14 @@ html {
   color: #ad1818;
   transition: all 0.3s ease;
 }
-.services__title {
-  color: white;
-}
-.services {
-  padding-top: 150px;
-  padding-bottom: 150px;
-  background-color: #121212;
-  color: white;
-}
-.service {
-  margin-bottom: 60px;
-}
-.service:nth-last-child(1) {
-  margin-bottom: 0px;
-}
-.service__image {
-  margin-bottom: 15px;
-  width: 100%;
-}
-.service__info {
-  font-size: 30px;
-  line-height: 41px;
-}
 .projects {
-  margin-bottom: 150px;
+  margin-bottom: 149px;
 }
 .project {
-  margin-bottom: 90px;
+  margin-bottom: 89px;
+}
+.project:nth-last-child(1) {
+  margin-bottom: 88px;
 }
 .project__image {
   margin-bottom: 15px;
@@ -156,18 +140,20 @@ html {
 .project__info {
   margin-bottom: 15px;
   font-size: 30px;
-  line-height: 41px;
+  line-height: 40px;
+  letter-spacing: -0.06em;
 }
 .project__link {
   text-decoration: none;
   color: #ad1818;
   font-size: 20px;
   line-height: 27px;
+  margin-left: 1px;
 }
 .projects__link {
   width: 100%;
   margin-top: 90px;
-  padding: 56px 0;
+  padding: 55px 0;
   display: block;
   text-decoration: none;
   text-align: center;
@@ -183,6 +169,36 @@ html {
   color: #fff;
   background: #ad1818;
   transition: all 0.3s ease;
+}
+.services__title {
+  color: white;
+  display: block;
+  margin-left: 2px;
+  margin-bottom: 34px;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+.services {
+  padding-top: 150px;
+  padding-bottom: 146px;
+  background-color: #121212;
+  color: white;
+}
+.service {
+  margin-bottom: 59px;
+}
+.service:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+.service__image {
+  margin-bottom: 15px;
+  width: 100%;
+}
+.service__info {
+  font-size: 30px;
+  line-height: 41px;
+  margin-left: 5px;
 }
 .example {
   position: relative;
