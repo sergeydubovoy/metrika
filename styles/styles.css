@@ -234,13 +234,14 @@ html {
 }
 .contacts__title::before {
   content: '';
-  display: block;
+  display: inline-block;
   position: absolute;
-  width: 15px;
-  height: 26px;
+  width: 24px;
+  height: 24px;
   bottom: 38px;
+  left: -4px;
   background-image: url(/resourсes/tel.svg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
