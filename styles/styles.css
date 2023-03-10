@@ -65,11 +65,15 @@ html {
   margin-bottom: 30px;
   font-size: 60px;
   line-height: 60px;
-  width: 1000px;
+  width: 100%;
   letter-spacing: -0.03em;
 }
 .start__image {
   position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+.start__image img {
   width: 100%;
 }
 .start__text {
