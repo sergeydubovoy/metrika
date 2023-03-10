@@ -82,6 +82,7 @@ html {
   font-size: 20px;
   line-height: 27px;
   color: white;
+  letter-spacing: -0.03em;
 }
 .about {
   margin-bottom: 149px;
@@ -141,7 +142,7 @@ html {
   margin-bottom: 15px;
   font-size: 30px;
   line-height: 40px;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
 }
 .project__link {
   text-decoration: none;
@@ -199,7 +200,7 @@ html {
   font-size: 30px;
   line-height: 41px;
   margin-left: 3px;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.03em;
 }
 .example {
   position: relative;
@@ -214,6 +215,7 @@ html {
   height: 82px;
   font-size: 30px;
   line-height: 41px;
+  letter-spacing: -0.03em;
 }
 .example__image {
   margin: 0 auto;
@@ -222,7 +224,9 @@ html {
   width: 100%;
 }
 .contacts {
+  padding-top: 36px;
   padding-bottom: 150px;
+  margin-bottom: 5px;
 }
 .contacts__title {
   display: block;
@@ -246,10 +250,8 @@ html {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-.contacts__icon {
-  margin-bottom: 12px;
-}
 .contacts__list {
+  padding-left: 3px;
   display: inline-flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -262,6 +264,7 @@ html {
   line-height: 60px;
   text-decoration: none;
   color: #121212;
+  letter-spacing: -0.02em;
 }
 .contacts__email {
   box-sizing: border-box;
@@ -273,6 +276,7 @@ html {
   color: #121212;
   opacity: 0.5;
   transition: all 2.3s ease;
+  letter-spacing: -0.02em;
 }
 .contacts__email:hover {
   border-bottom: 2px solid gray;
